@@ -3,7 +3,7 @@ import {Form,Button} from 'react-bootstrap';
 import {useState} from 'react';
 import {db} from '../../utils/firebase';
 import {getSession} from 'next-auth/client';
-// import "firebase/firestore";
+import "firebase/firestore";
 import Post from "../../components/post";
 var fakeBio=""
 export async function getServerSideProps(ctx) {
