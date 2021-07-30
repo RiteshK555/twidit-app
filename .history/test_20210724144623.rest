@@ -1,7 +1,0 @@
-GET http://localhost:3000/api/hi
-content-type: application/json
-
-{
-    "username":"ritesh",
-    "password":"ritesh"
-}
