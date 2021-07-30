@@ -6,3 +6,4 @@ This is made of firebase, next-auth, nextjs, react-bootstrap.
 This app is not responsive (cz i didnt use bootstrap ) so dont play with it, it will look like dogshit if you minimise size of page.
 This app is mostly client side.
 App link https://twidit.vercel.app
+This website has many gliches and it is prone to attacks.
