@@ -8,7 +8,7 @@ const SignIn = () => {
         Welcome to twidit!
       </h1>
         <div style={{paddingLeft:112}}>
-            <Button onClick={() => signIn("google")} style={{margin:12}} variant="primary" size="lg">Sign In</Button>
+            <Button onClick={() => signIn()} style={{margin:12}} variant="primary" size="lg">Sign In</Button>
         </div>
     </div>
     </>
