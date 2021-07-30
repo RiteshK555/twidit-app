@@ -5,3 +5,4 @@ It has features like follow, comment, like, and search (but there are no users l
 This is made of firebase, next-auth, nextjs, react-bootstrap.
 This app is not responsive (cz i didnt use bootstrap ) so dont play with it, it will look like dogshit if you minimise size of page.
 This app is mostly client side.
+app link https://twidit.vercel.app
