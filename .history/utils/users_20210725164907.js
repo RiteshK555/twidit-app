@@ -1,0 +1,10 @@
+import {firestore} from './firebase';
+const getUsers=async ()=>{
+    const snapshot=await firestore.collection("users").get().then((querySnapshot) => {
+    querySnapshot.forEach((doc) => {
+        console.log(`${doc.id} => ${doc.data()}`);
+    });
+});
+
+}
+module.exports={getUsers};
